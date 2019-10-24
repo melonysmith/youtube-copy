@@ -1,0 +1,450 @@
+@font-face {
+	font-family: 'tradeGothic';
+	src: url('assets/fonts/tradeGothic.ttf'); 
+}
+
+body {
+	color: #fff;
+	cursor: default;
+	font-family: 'tradeGothic', sans-serif;
+	font-size: 16px !important;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+header {
+	background: #282828;
+	height: 56px;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+nav {
+	height: 32px;
+	margin-top: 12px;
+	padding: 0 16px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.left {
+	float: left;
+}
+
+.menu {
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.top,
+.middle,
+.bottom {
+	background: #fff;
+	height: 2px;
+	margin: 4px 0;
+	width: 18px;
+}
+
+.logo {
+	cursor: pointer;
+	display: inline-block;
+	height: 18px;
+	width: 82px;
+}
+ 
+.search {
+	cursor: text;
+	display: inline-block;
+	height: 90%;
+	margin-top: 2px;
+	padding: 0 0 26px 0;
+	width: 60%;
+}
+
+.input {
+	background: #121212;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 15px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 0 4px 8px;
+	width: 60%;
+}
+
+.input:focus {
+	outline: 0.5px solid #3ea6ff;
+}
+
+.icon {
+	cursor: pointer;
+	height: 32px;
+	margin: -8px 0 0 -5px;
+	vertical-align: bottom;
+	width: 60px;
+}
+
+.right {
+	float: right;
+}
+
+.right-options {
+	cursor: pointer;
+	height: 50px;
+	margin: -8px 35px 0 0;
+	width: 190px;
+}
+
+main {
+	height: 100%;
+	margin-top: 56px;
+	width: 100%;
+}
+
+section {
+	background: #1f1f1f;
+	float: right;
+	height: 1200px;
+	padding: 24px 24px 0 24px;
+	position: absolute;
+	width: 65%;
+}
+
+iframe {
+	cursor: pointer;
+	margin-left: 200px;
+}
+
+#info {
+	padding: 20px 0 8px 0;
+}
+
+.title {
+	margin: 0 15px 0 200px;
+}
+
+.stats {
+	border-bottom: 0.5px solid #393939;
+	height: 41px;
+	margin-left: 200px;
+}
+
+.views {
+	color: #aaa;
+	cursor: text;
+	float: left;
+	font-size: 15px;
+	margin-top: 10px;
+}
+  
+.date {
+	color: #aaa;
+	cursor: text;
+	float: left;
+	font-size: 15px;
+	margin-top: 10px;
+	padding-left: 4px;
+}
+
+.user-options {
+	cursor: pointer;
+	float: right;
+	height: 32px !important;
+	margin: 8px 85px 0 0;
+	width: 340px;
+}
+
+#posted-by {
+	border-bottom: 0.5px solid #393939;
+	margin-left: 200px;
+	padding: 10px 0 20px 0;
+}
+
+.row {
+	margin-bottom: 12px;
+	padding-top: 16px;
+}
+
+.posted-by-avatar {
+	height: 50px;
+	position: absolute;
+	width: 65px;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 60%;
+}
+
+.author {
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 60px;
+}
+
+.subscribers {
+	color: #606060;
+	font-size: 13px;
+	margin-left: 60px;
+}
+
+.subscribe {
+	background: #ff0000;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	font-size: 14px;
+	height: 36px;
+	margin: -20px 90px 0 0;
+	padding: 8px 20px 10px;
+}
+	
+.subscribe:hover {
+	cursor: pointer;
+}
+
+.content {
+	font-size: 15px;
+	margin-left: 60px;
+}
+
+.text {
+	padding: 15px 0;
+}
+	
+.toggle {
+	color: #aaa;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#comments {
+	margin: 24px 0 32px 200px;
+}
+
+.comment-heading {
+	height: 32px;
+}
+
+.comment-count {
+	color: #fff;
+	font-size: 16px;
+	margin-right: 35px;
+}
+
+.sort {
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+
+.top-bar {
+	background: #aaa;
+	height: 2px;
+	margin: 4px 0;
+	width: 20px;
+}
+
+.middle-bar {
+	background: #aaa;
+	height: 2px;
+	margin: 4px 0;
+	width: 12px;
+}
+
+.bottom-bar {
+	background: #aaa;
+	height: 2px;
+	margin: 4px 0;
+	width: 5px;
+}
+	
+.sort-text {
+	color: #aaa;
+	cursor: pointer;
+	font-size: 14px;
+	margin-top: 7px;
+	text-transform: uppercase;
+}
+
+.comment-form {
+	margin-top: 24px;
+}
+
+.user-avatar {
+	display: inline-block;
+	height: 48px;
+	width: 5%;
+}
+
+.user-av {
+	border-radius: 50%;
+	width: 80%;
+}
+
+.user-comment {
+	padding-left: 10px;
+}
+
+.user-input {
+	background: #1f1f1f;
+	border: none;
+	border-bottom: 0.5px solid #393939;
+	color: #aaa;
+	cursor: text;
+	font-size: 15px;
+	outline: none;
+	padding-bottom: 5px;
+	text-align: top;
+	vertical-align: top;
+	width: 92%;
+}
+
+.user-input:focus {
+	border-bottom: 1px solid #000;
+}
+
+.comments {
+	margin: 20px 0 0 200px;
+}
+
+.comment-avatar {
+	display: inline-block;
+	height: 50px;
+	position: absolute;
+	width: 5%;
+}
+
+.comment-av {
+	border-radius: 50%;
+	cursor: pointer;
+	width: 80%;
+}
+
+.comment-wrapper {
+	display: inline-block;
+	padding-left: 60px;
+}
+
+.comment-username {
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+	
+.comment-date {
+	color: #606060;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.comment-text {
+	font-size: 15px;
+}
+
+.comment-toolbar {
+	margin: 5px 0;
+}
+
+.comment-options {
+	cursor: pointer;
+	height: 24px;
+	width: 150px;
+}
+
+.sub-comments {
+	color: #3ea6ff;
+	cursor: pointer;
+	font-size: 14px;
+	margin: 5px 0 0 56px;
+}
+
+.down-caret {
+	cursor: pointer;
+	font-size: 10px;
+	margin-right: 10px;
+}
+
+aside {
+	background: #1f1f1f;
+	color: #fff;
+	height: 1200px;
+	padding: 24px 24px 0;
+	position: absolute;
+	right: 0;
+	width: 35%;
+}
+
+#autoplay {
+	border-bottom: 0.5px solid #393939;
+	margin-bottom: 16px;
+	width: 80%;
+}
+
+.up-next {
+	color: #fff;
+	font-size: 18px;
+	vertical-align: center;
+}
+
+.autoplay-btn {
+	cursor: pointer;
+	float: right;
+	margin-right: 100px;
+	width: 100px;
+}
+
+.autoplay-video {
+	margin: 16px 0;
+}
+
+.autoplay-list {
+	margin-bottom: 10px;
+}
+
+.thumbnail {
+	cursor: pointer;
+	height: auto;
+	width: 160px;
+}
+
+.metadata {
+	cursor: pointer;
+	display: inline-block;
+	padding-right: 24px;
+	vertical-align: top;
+	width: 200px;
+}
+
+.autoplay-title {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.autoplay-author {
+	color: #aaa;
+	font-size: 13px;
+	padding-top: 4px;
+}
+
+.autoplay-views {
+	color: #aaa;
+	font-size: 13px;
+	padding-top: 4px;
+}

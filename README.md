@@ -1,1 +1,1 @@
-# youtube-copy
+YouTube replication for The Odin Project
